@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
     TODO: Add long description of the pod here.
                        DESC
 
-    s.homepage         = 'https://github.com/weishuai/pps'
+    s.homepage         = 'https://github.com/weishuai1122/pps'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'weishuai' => '957752262@qq.com' }
-    s.source           = { :git => 'https://github.com/weishuai/pps.git', :tag => s.version.to_s }
+    s.author           = { 'weishuai1122' => '957752262@qq.com' }
+    s.source           = { :git => 'https://github.com/weishuai1122/pps.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '8.0'
