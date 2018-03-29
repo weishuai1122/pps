@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'pps'
-    s.version          = '0.1.5'
+    s.version          = '0.1.6'
     s.summary          = 'A short description of pps.'
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
-    s.source_files = 'pps/Classes/*.{h,m}'
+    s.source_files = 'pps/pps/Classes/*.{h,m}'
 
     s.resource_bundles = {
-        'pps' => ['pps/Assets/*.png']
+        'pps' => ['pps/pps/Assets/*.png']
     }
 
     s.public_header_files = 'pps/Classes/*.h'
