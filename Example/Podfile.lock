@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - pps (0.1.1):
+  - pps (0.1.5):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
@@ -26,7 +26,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  pps: 17fe4b1ab8422572aaf9e87e78abbcd0c89221d3
+  pps: 8beb054267faa11146d91a523db5646a16313b09
 
 PODFILE CHECKSUM: c82a48c85a63daf5a3b5ab3fe9746c1c4469f1b6
 
