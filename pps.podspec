@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
-    s.source_files = 'pps/Classes/**/*.{h,m}'
+    s.source_files = 'pps/Classes/*.{h,m}'
 
     s.resource_bundles = {
         'pps' => ['pps/Assets/*.png']
     }
 
-    s.public_header_files = 'Pod/Classes/*.h'
+    s.public_header_files = 'pps/Classes/*.h'
     s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking', '~> 3.0'
 end
