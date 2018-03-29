@@ -7,7 +7,7 @@
 //
 
 #import "HTJCViewController.h"
-
+#import <pps/HTStaticString.h>
 @interface HTJCViewController ()
 
 @end
@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"%@",HTShareNotification);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

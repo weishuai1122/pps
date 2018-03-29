@@ -1,0 +1,6 @@
+framework module pps {
+  umbrella header "pps-umbrella.h"
+
+  export *
+  module * { export * }
+}
