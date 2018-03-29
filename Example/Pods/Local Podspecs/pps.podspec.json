@@ -25,7 +25,7 @@
       "pps/Assets/*.png"
     ]
   },
-  "public_header_files": "Pod/Classes/**/*.h",
+  "public_header_files": "Pod/Classes/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"
