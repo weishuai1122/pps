@@ -1,6 +1,6 @@
 {
   "name": "pps",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "summary": "A short description of pps.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/weishuai1122/pps",
@@ -13,19 +13,19 @@
   },
   "source": {
     "git": "https://github.com/weishuai1122/pps.git",
-    "tag": "0.1.6"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "pps/pps/Classes/*.{h,m}",
+  "source_files": "pps/Classes/*.{h,m}",
   "resource_bundles": {
     "pps": [
-      "pps/pps/Assets/*.png"
+      "Pod/Assets/*.png"
     ]
   },
-  "public_header_files": "pps/Classes/*.h",
+  "public_header_files": "Pod/Classes/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"

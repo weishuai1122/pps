@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'pps'
-    s.version          = '0.1.6'
+    s.version          = '0.1.7'
     s.summary          = 'A short description of pps.'
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
-    s.source_files = 'pps/pps/Classes/*.{h,m}'
+    s.source_files = 'pps/Classes/*.{h,m}'
 
     s.resource_bundles = {
-        'pps' => ['pps/pps/Assets/*.png']
+        'pps' => ['Pod/Assets/*.png']
     }
 
-    s.public_header_files = 'pps/Classes/*.h'
+    s.public_header_files = 'Pod/Classes/*.h'
     s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AFNetworking', '~> 3.0'
 end
