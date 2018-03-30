@@ -1,9 +1,9 @@
 {
   "name": "pps",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "summary": "A short description of pps.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/weishuai1122/pps",
+  "homepage": "http://192.168.80.136/weishuai/pps",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,14 +12,17 @@
     "weishuai1122": "957752262@qq.com"
   },
   "source": {
-    "git": "https://github.com/weishuai1122/pps.git",
-    "tag": "0.1.7"
+    "git": "http://192.168.80.136/weishuai/pps.git",
+    "tag": "0.1.9"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "pps/Classes/*.{h,m}",
+  "ios": {
+    "vendored_frameworks": "pps.framework"
+  },
   "resource_bundles": {
     "pps": [
       "Pod/Assets/*.png"
