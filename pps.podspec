@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
     s.source_files = 'pps/Classes/*.{h,m}'
-    s.vendored_frameworks   = 'pps.framework'
     s.resource_bundles = {
         'pps' => ['Pod/Assets/*.png']
     }
