@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'pps'
-    s.version          = '0.1.9'
+    s.version          = '0.2.0'
     s.summary          = 'A short description of pps.'
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
