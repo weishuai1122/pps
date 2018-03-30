@@ -1,6 +1,6 @@
 {
   "name": "pps",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "A short description of pps.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "http://192.168.80.136/weishuai/pps",
@@ -13,16 +13,14 @@
   },
   "source": {
     "git": "http://192.168.80.136/weishuai/pps.git",
-    "tag": "0.1.9"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "pps/Classes/*.{h,m}",
-  "ios": {
-    "vendored_frameworks": "pps.framework"
-  },
+  "vendored_frameworks": "pps.framework",
   "resource_bundles": {
     "pps": [
       "Pod/Assets/*.png"
@@ -32,10 +30,5 @@
   "frameworks": [
     "UIKit",
     "MapKit"
-  ],
-  "dependencies": {
-    "AFNetworking": [
-      "~> 3.0"
-    ]
-  }
+  ]
 }
