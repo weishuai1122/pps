@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     TODO: Add long description of the pod here.
                        DESC
 
-    s.homepage         = 'https://github.com/weishuai1122/pps'
+    s.homepage         = 'http://192.168.80.136/weishuai/pps.git'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'weishuai1122' => '957752262@qq.com' }
