@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'weishuai1122' => '957752262@qq.com' }
-    s.source           = { :git => 'https://github.com/weishuai1122/pps.git', :tag => s.version.to_s }
+    s.source           = { :git => 'git@192.168.80.136:IOS/HTSpecs.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '8.0'
     s.requires_arc = true
     s.source_files = 'pps/Classes/*.{h,m}'
-
+    s.ios.vendored_framework   = 'pps.framework'
     s.resource_bundles = {
         'pps' => ['Pod/Assets/*.png']
     }
